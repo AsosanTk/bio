@@ -1,0 +1,40 @@
+body {
+  background: #e2f4de;
+  color: #50976a;
+}
+header {
+
+}
+footer {
+
+}
+section {
+
+}
+/*Fonts*/
+h1 {
+  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+h3 {
+  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+p {
+  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+/*デザインの参考はApple公式サイトを参照のこと：https://www.apple.com/jp/iphone-12/*/
