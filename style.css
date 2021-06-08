@@ -60,8 +60,7 @@ section {
 .hero-content {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  max-width: 100%;
+
 }
 
 /*Footer*/
@@ -111,5 +110,8 @@ font-weight: 300;
 font-style: normal;
 */
 @media only screen and (max-width: 734px) {
-
+  .hero-content {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
