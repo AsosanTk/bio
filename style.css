@@ -6,10 +6,24 @@
   border: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'SF Pro Text R';
+  src: url(fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+  font-family: 'SF Pro Text S';
+  src: url(fonts/SF-Pro-Text-Semibold.otf);
+}
 
 body {
   background: #e2f4de;
   color: #1d1d1f;
+  font-size: 17px;
+  line-height: 1.47059;
+  letter-spacing: -.022em;
+  font-family: "SF Pro Text R", "Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-style: normal;
+  text-align: center;
 }
 
 /*navigation bar*/
@@ -31,7 +45,7 @@ section {
 }
 
 /*home content*/
-#home {
+/*#home {
   width: 100%;
   height: 690px;
   position: relative;
@@ -48,8 +62,7 @@ section {
   display: block;
   width: 250px;
   height: 50px;
-}
-
+}*/
 /*about*/
 #about {
   position: relative;
@@ -63,55 +76,40 @@ section {
 
 }
 
+/*title-container*/
+.title-container {
+  position: relative;
+  z-index: 3;
+  padding: 180px 0;
+  background: #fff;
+  border-radius: 30px 30px;
+  overflow: hidden;
+  margin-top: 30px;
+  will-change: transform;
+}
+
 /*Footer*/
 footer {
 
 }
 
-/*Fonts*/
-h1 {
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 30px;
-  text-align: center;
-}
-h2 {
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 18px;
-}
-h3 {
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-}
-p {
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-}
 /*デザインの参考はApple公式サイトを参照のこと：https://www.apple.com/jp/iphone-12/*/
 
-/*
-font-family: a-otf-gothic-bbb-pr6n,sans-serif;
-font-weight: 400;
-font-style: normal;
-
-font-family: a-otf-futo-go-b101-pr6n,sans-serif;
-font-weight: 500;
-font-style: normal;
-
-font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-font-weight: 300;
-font-style: normal;
-*/
 @media only screen and (max-width: 734px) {
+  .title-container {
+    padding: 80px 0 130px 0;
+  }
+
   .hero-content {
     flex-basis: 100%;
     max-width: 100%;
   }
+
+}
+
+@media only screen and (max-width: 1068px) {
+  .title-container {
+    padding: 120px 0 180px 0;
+  }
+
 }
